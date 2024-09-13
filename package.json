@@ -1,0 +1,29 @@
+{
+  "name": "workshop1_javascript",
+  "version": "1.0.0",
+  "description": "workshop in 1dv610",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkerAnn/workshop1_1dv610_JavaScript.git"
+  },
+  "keywords": [
+    "javascript",
+    "1dv610",
+    "cleancode"
+  ],
+  "author": "Angelica Marker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkerAnn/workshop1_1dv610_JavaScript/issues"
+  },
+  "homepage": "https://github.com/MarkerAnn/workshop1_1dv610_JavaScript#readme",
+  "devDependencies": {
+    "vite": "^5.4.4"
+  }
+}
