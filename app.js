@@ -15,7 +15,7 @@ function createElements(itemName) {
   const deleteButton = document.createElement('button')
   deleteButton.classList.add('delete')
   deleteButton.textContent = 'Radera'
-  // trycker på button ta bort li
+
   listItem.appendChild(deleteButton)
   deleteButton.addEventListener('click', () => {
     deleteItem(listItem)
@@ -30,5 +30,4 @@ function clearInput() {
 
 function deleteItem(listItem) {
   todoItemList.removeChild(listItem)
-  console.log('delete', listItem)
 }
